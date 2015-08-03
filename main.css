@@ -1,9 +1,11 @@
 body {
   color: #999999;
   background-color: #222222;
+  font-family: sans-serif;
 }
 
 a {
+  color: #0066FF;
   text-decoration: none;
 }
 
