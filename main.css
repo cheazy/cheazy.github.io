@@ -1,90 +1,71 @@
 * {
   margin: 0;
 }
-
 .wrapper {
   min-height: 100%;
   height: auto !important;
   height: 100%;
   margin: 0 auto -100px;
-  
 }
-
 html, body {
   height: 100%;
 }
-
 body {
   color: #6d689b;
   background-color: #111;
   font-family: sans-serif;
   letter-spacing: 1px;
 }
-
 a {
   color: #6d689b;
   text-decoration: none;
-
 }
-
 
 a:hover {
   
 }
-
 li {
   list-style: none;
   display: inline;
   margin: 20px;
 }
-
 ul {
   margin: 0px;
   padding: 0px;
 }
-
 h1 {
   font-size: 16px;
   font-weight: normal;
 }
-
 header, footer, .push {
   height: 100;
   line-height: 100px;
 }
-
 header, footer {
   text-align: center;
 }
-
 footer {
   font-size: 20px;
 }
-
 .post img {
   opacity: 1;
   width: 70%
 }
-
 .post img:hover{
   opacity: 1;
 }
-
 footer img {
   opacity: .3;
 }
-
 footer img:hover {
   opacity: 1;
 }
-
 time {
   display: block;
   text-align: right;
   font-size: 12px;
   padding: 5px 0;
 }
-
 .post {
   margin: 0 auto;
   padding: 120px 0;
