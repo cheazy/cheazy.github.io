@@ -5,7 +5,7 @@
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -123px;
+  margin: 0 auto -130px;
 }
 html, body {
   height: 100%;
@@ -19,6 +19,34 @@ body {
 header {
   font-size: 80px;
   line-height: 150px;
+}
+.icons {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background-color: #6d689b;
+  opacity: .1;
+}
+.icons:hover {
+  opacity: 1;
+}
+.soundcloud {
+  -webkit-mask-image: url(img/soundcloud.svg);
+}
+.twitter {
+  -webkit-mask-image: url(img/twitter.svg);
+}
+.youtube {
+  -webkit-mask-image: url(img/youtube.svg);
+}
+.github {
+  -webkit-mask-image: url(img/github.svg);
+}
+.steam {
+  -webkit-mask-image: url(img/steam.svg);
+}
+.mail {
+  -webkit-mask-image: url(img/mail.svg);
 }
 a {
   color: #6d689b;
@@ -50,10 +78,10 @@ footer {
 .post img:hover {
   opacity: 1;
 }
-footer img {
-  opacity: .3;
+footer {
+  opacity: 1;
 }
-footer img:hover {
+footer:hover {
   opacity: 1;
 }
 time {
@@ -68,8 +96,4 @@ time {
   width: 500px;
   text-align: center;
   
-}
-.social img {
-  height: 80px;
-  width: 80px;
 }
