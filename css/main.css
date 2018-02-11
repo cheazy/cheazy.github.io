@@ -16,9 +16,10 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   letter-spacing: 1px;
 }
-header {
+#title {
   font-size: 80px;
   line-height: 150px;
+  text-align: center;
 }
 .icons {
   width: 80px;
@@ -29,7 +30,7 @@ header {
   position: relative;
 }
 .icons:hover {
-  opacity: .8;
+  opacity: 1;
 }
 .soundcloud {
   -webkit-mask-image: url(../img/soundcloud.svg);
